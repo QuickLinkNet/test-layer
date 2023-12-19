@@ -12,7 +12,7 @@ const default_image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0q
 <template>
   <div class="login-container">
     <div class="logo-container">
-      <img :src="props.image ? props.image : default_image" alt="Logo"> <!-- Ersetzen Sie logo.png mit Ihrem Projekt-Logo -->
+<!--      <img :src="props.image ? props.image : default_image" alt="Logo"> &lt;!&ndash; Ersetzen Sie logo.png mit Ihrem Projekt-Logo &ndash;&gt;-->
     </div>
     <form class="login-form">
       <input type="text" placeholder="Benutzername" required>
